@@ -33,17 +33,17 @@
                 <p>逃脫吧!暫別你的現實人生，在一場實境遊戲中放肆沉浸!</p>
                 <form action="gamer.php" method="post">
                     <font>遊玩城市</font> <font>遊玩人數</font><br>
-                    <select name="search_city" >
+                    <select name="city" >
                         <option value="">請選擇城市</option>
-                        <option value="大台北">大台北</option>
-                        <option value="台北市">台北市</option>
-                        <option value="新北市">新北市</option>
+                        <option value="101">大台北</option>
+                        <option value="102">台北市</option>
+                        <option value="103">新北市</option>
                     </select>
-                    <select name="search_people" >
+                    <select name="pp" >
                         <option value="">不限</option>
-                        <option value="1人">1人</option>
-                        <option value="2人">2人</option>
-                        <option value="3人">3人</option>
+                        <option value="1">1人</option>
+                        <option value="2">2人</option>
+                        <option value="3">3人</option>
                     </select>
                     <input type="submit" value="望遠鏡">
                 </form>
