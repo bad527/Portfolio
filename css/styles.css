@@ -1,0 +1,34 @@
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden; /* 防止橫向滾動條 */
+        }
+        nav{
+            background-color: bisque;
+            position: sticky;
+            width: 100%;
+            padding: 0; /* 確保沒有額外的內邊距 */
+            margin: 0;  /* 確保沒有額外的外邊距 */}
+        ul{
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            list-style: none; /* 移除項目符號 */
+        }
+        li{
+            margin: 18px 18px;
+            >a{
+                color: white;
+                font-weight: bolder;
+                text-decoration: none;
+                font-size: 36px;
+            }
+        }
+        li input{
+            font-size: larger;
+            padding: 12px 4px;
+        }
